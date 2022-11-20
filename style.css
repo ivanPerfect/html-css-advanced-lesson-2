@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x:hidden;
+}
+header {
+    text-align: center;
+    background-color: aqua;
+    height: 55px;
+}
+nav {
+    width: 200px;
+    height: 500px;
+    background-color: cadetblue;
+}
+nav h2 {
+    position: relative;
+    top:30%;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 200px;
+    top: 55px;
+    background-color: aquamarine;
+}
+section div {
+    width: 450px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+}
+section img {
+    width: 200px;
+    height: 200px;
+}
+section button {
+    width: 100px;
+    background-color: chocolate;
+}
+section a {
+    text-decoration: none;
+    color: black;
+}
